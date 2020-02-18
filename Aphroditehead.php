@@ -1,6 +1,9 @@
 <?php
 include 'dbAphrodite.php';
-session_start();
+if (!session_id())
+{
+    session_start();
+}
 //$_SESSION["user"]="login";
 //var_dump($_SESSION);
 //unset($_SESSION["user"]);
@@ -31,18 +34,18 @@ if (isset($_SESSION['cart']))
 if ($conn->query($sql) === TRUE) {
     $insert = "INSERT INTO `products` (`name`, `desc`, `price`, `rrp`, `quantity`, `img`) VALUES
 ('Jaiman Earrings', '', '10.99', '', '10', 'jp3.jpg'),
-('Royal Blue', '', '45.99', '', '15', 'bs2.jfif'),
-('Björg Jewellery', '', '11.99', '', '20', 'bb4.jfif'),
-('Beading Pattern', '', '4.99', '', '10', 'Bdd4.jfif'),
-('Dairy', '', '6.99', '', '10', 'bm8.jfif'),
-('Blues', '', '16.99', '', '10', 'ee2.jfif'),
-('Bron', '', '6.99', '', '10', 'mm.jfif'),
-('Colon', '', '26.99', '', '10', 'jw3.jfif'),
-('Tealworld', '', '12.99', '', '10', 'tf3.jfif'),
+('Royal Blue', '', '45.99', '', '12', 'bs2.jfif'),
+('Björg Jewellery', '', '11.99', '', '15', 'bb4.jfif'),
+('Beading Pattern', '', '4.99', '', '14', 'Bdd4.jfif'),
+('Dairy', '', '6.99', '', '11', 'bm8.jfif'),
+('Blues', '', '16.99', '', '12', 'ee2.jfif'),
+('Bron', '', '6.99', '', '8', 'mm.jfif'),
+('Colon', '', '26.99', '', '9', 'jw3.jfif'),
+('Tealworld', '', '12.99', '', '11', 'tf3.jfif'),
 ('Whitee', '', '5.99', '', '10', 'tt.jfif'),
-('Jammy', '', '99.99', '', '10', 'ww.jfif'),
-('Roomy', '', '56.99', '', '10', 'rr1.jfif'),
-('Beyonce', '', '50.99', '', '12', 'ff.jfif');";
+('Jammy', '', '99.99', '', '18', 'ww.jfif'),
+('Roomy', '', '56.99', '', '11', 'rr1.jfif'),
+('Beyonce', '', '50.99', '', '7', 'ff.jfif');";
     //(4, 'Digital Camera', '', '69.99', '0.00', 7, 'camera.jpg', '')
     if ($conn->query($insert) === TRUE) {
         echo 'data inserted';
@@ -100,7 +103,7 @@ if ($conn->query($sql) === TRUE) {
                 <li><a href="signUpAphrodite.php"><span class="glyphicon glyphicon-user"></span> Signup</a</li>
                 <?php
                     } ?>
-                <li><a href="/phpProject/cart.php"><span class="glyphicon glyphicon-shopping-cart"></span> Cart <?php echo $cart;?></a></li>
+                <li><a href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span> Cart <?php echo $cart;?></a></li>
             </ul>
 
         </div>
