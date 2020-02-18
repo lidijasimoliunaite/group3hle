@@ -34,6 +34,14 @@ if ($conn->query($sql) === TRUE) {
 ('Royal Blue', '', '45.99', '', '15', 'bs2.jfif'),
 ('Björg Jewellery', '', '11.99', '', '20', 'bb4.jfif'),
 ('Beading Pattern', '', '4.99', '', '10', 'Bdd4.jfif'),
+('Dairy', '', '6.99', '', '10', 'bm8.jfif'),
+('Blues', '', '16.99', '', '10', 'ee2.jfif'),
+('Bron', '', '6.99', '', '10', 'mm.jfif'),
+('Colon', '', '26.99', '', '10', 'jw3.jfif'),
+('Tealworld', '', '12.99', '', '10', 'tf3.jfif'),
+('Whitee', '', '5.99', '', '10', 'tt.jfif'),
+('Jammy', '', '99.99', '', '10', 'ww.jfif'),
+('Roomy', '', '56.99', '', '10', 'rr1.jfif'),
 ('Beyonce', '', '50.99', '', '12', 'ff.jfif');";
     //(4, 'Digital Camera', '', '69.99', '0.00', 7, 'camera.jpg', '')
     if ($conn->query($insert) === TRUE) {
@@ -61,7 +69,7 @@ if ($conn->query($sql) === TRUE) {
 
 <div class="jumbotron">
     <div class="container text-center">
-        <img src="aphroditeHppix.jpeg" class="img-fluid" alt="Responsive image" width="100%" height="300px">
+        <img src="images/aphroditeHppix.jpeg" class="img-fluid" alt="Responsive image" width="100%" height="300px">
 
     </div>
 </div>
@@ -73,22 +81,25 @@ if ($conn->query($sql) === TRUE) {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="aphroditeHome.php">Aphrodite</a>
+            <a class="navbar-brand" href="index.php">Aphrodite</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="aphroditeHome.php">Home</a></li>
+                <li class="active"><a href="index.php">Home</a></li>
                 <li><a href="aphroditeProduct.php">Products</a></li>
                 <li><a href="#">Deals</a></li>
                 <li><a href="aphroditeAboutUs.php">About Us</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li>
+
                     <?php if ($user) { ?>
-                        <a href=""><span class="glyphicon glyphicon-user"></span> <?php echo $name; ?></a>
+                <li><a href="signout.php"><span class="glyphicon glyphicon-user"></span> Signout</a></li>
                     <?php } else { ?>
-                        <a href=""><span class="glyphicon glyphicon-user"></span> Signin</a><?php } ?></li>
+                <li><a href="loginAphrodite.php"><span class="glyphicon glyphicon-user"></span> Signin</a</li>
+                <li><a href="signUpAphrodite.php"><span class="glyphicon glyphicon-user"></span> Signup</a</li>
+                <?php
+                    } ?>
                 <li><a href="/phpProject/cart.php"><span class="glyphicon glyphicon-shopping-cart"></span> Cart <?php echo $cart;?></a></li>
             </ul>
 

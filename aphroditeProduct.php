@@ -158,6 +158,7 @@ $sql = "SELECT * FROM products;";
 //$sql="select * FROM aphrodite WHERE email='$email' AND psw='$psw'";
 $result = $conn->query($sql);
 //var_dump($result);
+$data = "";
 if($result->num_rows > 0) {
     $rows = $result->fetch_all(MYSQLI_ASSOC);
     //echo "<pre>".print_r($rows, true);
@@ -167,7 +168,7 @@ if($result->num_rows > 0) {
     {
         $id = $row['id'];
         $name = $row['name'];
-        $img = $row['img'];
+        $img = "images/".$row['img'];
         $price = $row['price'];
         if ($count === 3){
             $data .= "</div><div class='row'>";

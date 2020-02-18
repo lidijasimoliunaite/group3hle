@@ -26,7 +26,7 @@
     </div>
   </div>
   <div class="col-sm-4"> 
-    <img src="hh.jfif" alt="" width="300" height="380"><br><br>
+    <img src="images/hh.jfif" alt="" width="300" height="380"><br><br>
     <h3 class="text-center"><strong>Experience </strong></h3>
     <p class="text-center">Your biggest fans, that's who</p> 
     <div class="card">
