@@ -4,14 +4,18 @@ if (!empty($_POST) && isset($_POST['email']) && isset($_POST['psw']) && isset($_
     $email= $_POST['email'];
     $psw= $_POST['psw'];
     $psw_repeat=$_POST['psw-repeat'];
-    if($psw === '' || $psw !== $psw_repeat && strlen($psw) >= 8){
-        header("Location: /signUpAphrodite.php");
-        exit();
-    }
-    if ($email === "" || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    if($psw === '' || $psw !== $psw_repeat && strlen($psw) <= 6){
+       // header("Location: signUpAphrodite.php");
+        exit("password");
 
-        header("Location: /signUpAphrodite.php");
-        exit();
+    }
+
+    //var_dump(filter_var($email, FILTER_VALIDATE_EMAIL), $email);
+    //if ($email === "" || !filter_var($email, FILTER_VALIDATE_EMAIL))
+    if ($email === "") {
+
+        //header("Location: signUpAphrodite.php");
+        exit("email");
     }
 
     $sql="insert into aphrodite (email, psw)

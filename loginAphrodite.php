@@ -15,7 +15,7 @@ if($result->num_rows > 0) {
   $row = $result->fetch_assoc();
     echo "<pre>".print_r($row, true);
     $_SESSION["user"] = $row;
-    header("Location: /phpProject/index.php");
+    header("Location:index.php");
     exit();
 }
 else
