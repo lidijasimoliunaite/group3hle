@@ -28,5 +28,5 @@ if (!empty($_POST) && isset($_POST['email']) && isset($_POST['psw']) && isset($_
         echo "ERROR: " .$sql. "<br>" . $conn->error;
     }
     $conn->close();
-
+    header("Location: index.php");
 }

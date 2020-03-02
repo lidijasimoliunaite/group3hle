@@ -15,7 +15,7 @@
             <p class="text-center">Your biggest fans, that's who</p>
             <div class="card">
                 <p>
-                    <button>Read about Aphrodite 001</button>
+                    <button><a href="whoWeAre.php">Read About Aphrodite 101</a> </button>
                 </p>
             </div>
         </div>
