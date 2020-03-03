@@ -25,7 +25,7 @@
             <p class="text-center">Your biggest fans, that's who</p>
             <div class="card">
                 <p>
-                    <button>APHRODITE Brands</button>
+                    <button><a href="Brands.php">Aphrodite Brands</a></button>
                 </p>
             </div>
         </div>
@@ -35,7 +35,7 @@
             <p class="text-center">Your biggest fans, that's who</p>
             <div class="card">
                 <p>
-                    <button>APHRODITE Experience</button>
+                    <button><a href="Experience.php">Aphrodite Experience</a></button>
                 </p>
             </div>
         </div>

@@ -2,14 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="379e11f7-2fe1-401f-93d3-17994ff46fd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/col.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/col1.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/weAre.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whoWeAre.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whoWeAre.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brands.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experience.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Hib.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Hib1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/col.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/col1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/eni.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/enny.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/enny1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lid.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lid1.jfif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aphroditefooter.php" beforeDir="false" afterPath="$PROJECT_DIR$/Aphroditefooter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aphroditehead.php" beforeDir="false" afterPath="$PROJECT_DIR$/Aphroditehead.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aphroditeAboutUs.php" beforeDir="false" afterPath="$PROJECT_DIR$/aphroditeAboutUs.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/createAphrodite.php" beforeDir="false" afterPath="$PROJECT_DIR$/createAphrodite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginAphrodite.php" beforeDir="false" afterPath="$PROJECT_DIR$/loginAphrodite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signUpAphrodite.css" beforeDir="false" afterPath="$PROJECT_DIR$/signUpAphrodite.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signUpAphrodite.php" beforeDir="false" afterPath="$PROJECT_DIR$/signUpAphrodite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whoWeAre.php" beforeDir="false" afterPath="$PROJECT_DIR$/whoWeAre.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +43,13 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/lidijasimoliunaite/group3hle.git" />
+      </set>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -77,7 +99,8 @@
       <workItem from="1582273092394" duration="635000" />
       <workItem from="1582886383443" duration="4170000" />
       <workItem from="1583135765729" duration="600000" />
-      <workItem from="1583137711605" duration="3744000" />
+      <workItem from="1583137711605" duration="9565000" />
+      <workItem from="1583157002373" duration="33928000" />
     </task>
     <task id="LOCAL-00001" summary="just trying this out">
       <created>1582034728673</created>
@@ -100,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582049195759</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="working">
+      <created>1583141483754</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583141483754</updated>
+    </task>
+    <task id="LOCAL-00005" summary="working">
+      <created>1583141639117</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583141639117</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,11 +166,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581809596759" />
-    <state x="0" y="16" key="CommitChangelistDialog2" timestamp="1583141637996">
+    <state x="0" y="16" key="CommitChangelistDialog2" timestamp="1583141821214">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="16" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1582128419717" />
-    <state x="0" y="16" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583141637996" />
+    <state x="0" y="16" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583141821214" />
     <state x="574" y="172" key="FileChooserDialogImpl" timestamp="1581803146885">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -151,12 +188,12 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="112" key="SettingsEditor/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1582032893601" />
-    <state x="470" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1583137712476">
+    <state x="470" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1583157002627">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1582886408745" />
     <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581802868077" />
-    <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583137712476" />
+    <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583157002627" />
     <state x="589" y="428" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582035282518">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

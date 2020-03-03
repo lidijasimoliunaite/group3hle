@@ -1,4 +1,16 @@
 <?php include 'aphroditehead.php';
+$success="";
+
+if(isset($_SESSION["success"])) {
+    $success = $_SESSION["success"];
+    unset($_SESSION["success"]);
+}
+if(isset($_SESSION["successin"])) {
+    $successin = $_SESSION["successin"];
+    unset($_SESSION["successin"]);
+    echo "<script type='text/javascript'> alert('$successin');</script>";
+}
+
 
 $sql = "SELECT * FROM products LIMIT 6;";
 //$sql="select * FROM aphrodite WHERE email='$email' AND psw='$psw'";
@@ -34,6 +46,9 @@ if($result->num_rows > 0) {
         $count = $count + 1;
     }
     $data .="</div>";
+}
+if($success!==""){
+    $data="<p>$success </p>$data";
 }
 echo $data;
 

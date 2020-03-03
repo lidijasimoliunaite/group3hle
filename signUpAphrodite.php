@@ -2,7 +2,7 @@
 <link rel="stylesheet" type="text/css" href="signUpAphrodite.css">
 
 
-<form action="createAphrodite.php" method="post" style="border:1px solid #ccc">
+<form action="createAphrodite.php" method="post">
   <div class="container">
     <h1>Sign Up</h1>
     <p>Please fill in this form to create an account.</p>

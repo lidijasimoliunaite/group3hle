@@ -15,7 +15,9 @@ if($result->num_rows > 0) {
   $row = $result->fetch_assoc();
     echo "<pre>".print_r($row, true);
     $_SESSION["user"] = $row;
+    $_SESSION["successin"]="You have logged in";
     header("Location:index.php");
+
     exit();
 }
 else

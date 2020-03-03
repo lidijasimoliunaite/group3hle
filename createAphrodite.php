@@ -1,4 +1,8 @@
 <?php include 'dbAphrodite.php' ;
+if (!session_id())
+{
+    session_start();
+}
 if (!empty($_POST) && isset($_POST['email']) && isset($_POST['psw']) && isset($_POST['psw-repeat']))
 {
     $email= $_POST['email'];
@@ -22,11 +26,13 @@ if (!empty($_POST) && isset($_POST['email']) && isset($_POST['psw']) && isset($_
     values('$email', '$psw')";
     if($conn->query($sql) === TRUE) {
         echo "New record added";
+        $_SESSION["success"]="You have registered successfully";
+        header("Location: index.php");
     }
     else
     {
         echo "ERROR: " .$sql. "<br>" . $conn->error;
     }
     $conn->close();
-    header("Location: index.php");
+
 }

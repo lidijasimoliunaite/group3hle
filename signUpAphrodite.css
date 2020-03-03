@@ -37,6 +37,10 @@ button:hover {
   opacity:1;
 }
 
+form{
+  border: none !important;
+}
+
 /* Extra styles for the cancel button */
 .cancelbtn {
   padding: 14px 20px;
@@ -45,7 +49,8 @@ button:hover {
 
 /* Float cancel and signup buttons and add an equal width */
 .cancelbtn, .signupbtn {
-  float: left;
+  display: inline-block;
+  margin: 0;
   width: 50%;
 }
 
